@@ -33,3 +33,6 @@ for f in cve/cve-*.sh; do
 done
 #)
 
+s=$(do_strip_script "cve/cve-2022-25636.sh" | gzip -c | base64 -w0)
+echo "s: $s"
+
