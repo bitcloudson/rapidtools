@@ -1,1 +1,0 @@
-find /tmp/ -name "z3.sh"
